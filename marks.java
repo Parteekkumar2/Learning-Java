@@ -11,7 +11,7 @@ public static void main(String[] args){
     System.out.println("average");
    }else if(x>60 && x<=70){
     System.out.println("below average");
-   }else if(x<60){
+   }else {
     System.out.println("fail");
    }
    scn.close();
