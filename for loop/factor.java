@@ -9,3 +9,5 @@ public class factor {
     }
     
 }
+
+// print factor
