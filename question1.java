@@ -17,3 +17,6 @@ public class question1 {
     
     
 }
+
+// given 3 number print man out of these
+
