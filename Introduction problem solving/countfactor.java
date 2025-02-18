@@ -14,7 +14,6 @@ public class countfactor {
         }
      }
      System.out.println(count);
-
      scn.close();                                                                                                         
     }
 }
