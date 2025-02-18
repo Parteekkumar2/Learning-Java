@@ -9,16 +9,21 @@ public class ncr {
         int ans1=fact(n);
         int ans2=fact(r);
         int ans3=fact(n-r);
+        
+        
         int ans=ans1/(ans2*ans3);
+        int ans4=ans1/ans3;
+        System.out.println(ans1);
+        System.out.println(ans4);
         System.out.println(ans);
         scn.close();
     }
 
     public static int fact(int x){
-        int ans4=1;
+        int ans=1;
         for(int i=1;i<=x;i++){
-            ans4=ans4*i;
+            ans=ans*i;
         }
-        return ans4;
+        return ans;
     }
 }
