@@ -27,3 +27,5 @@ public class ncr {
         return ans;
     }
 }
+
+// ncr npr n!
