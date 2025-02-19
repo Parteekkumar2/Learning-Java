@@ -2,8 +2,8 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class pintelement {
-    public static void main(String[] args){
+public class printsum {
+      public static void main(String[] args){
         Scanner scn=new Scanner(System.in);
         int n=scn.nextInt();
         //  array
@@ -11,11 +11,12 @@ public class pintelement {
         for(int i=0;i<=n-1;i++){
           arr[i]=scn.nextInt();
         }
-       
+        
+          int sum=0;
         for(int i=0;i<=n-1;i++){
-            System.out.println(arr[i]);
+            sum=sum+arr[i];
           }
-       
+       System.out.println(sum);
         scn.close();
      }
 }
