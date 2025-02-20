@@ -32,12 +32,35 @@ public class swapindex {
 
         // Swap the elements
         swap(arr, index1, index2);
+         
+        System.out.println("After swap: ");
+        for(int i=0;i<=size-1;i++){
+;          System.out.print(arr[i]);
+        }
 
-        // Print the array after swapping
-        System.out.println("After swap: " + java.util.Arrays.toString(arr));
+        // // Print the array after swapping
+        // System.out.println("After swap: " + java.util.Arrays.toString(arr));
 
         scanner.close();
     }
 }
 
 
+//given array swap indexes 
+
+// public class SwapElements {
+//     public static void swap(int[] arr, int index1, int index2) {
+//         int temp = arr[index1];
+//         arr[index1] = arr[index2];
+//         arr[index2] = temp;
+//     }
+
+//     public static void main(String[] args) {
+//         int[] arr = {1, 2, 3, 4, 5};
+//         System.out.println("Before swap: " + java.util.Arrays.toString(arr));
+        
+//         swap(arr, 1, 3); // Swap elements at index 1 and index 3
+        
+//         System.out.println("After swap: " + java.util.Arrays.toString(arr));
+//     }
+// }
