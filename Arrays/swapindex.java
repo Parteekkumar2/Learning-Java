@@ -33,9 +33,9 @@ public class swapindex {
         // Swap the elements
         swap(arr, index1, index2);
          
-        System.out.println("After swap: ");
+        System.out.print("After swap: ");
         for(int i=0;i<=size-1;i++){
-;          System.out.print(arr[i]);
+;          System.out.print(arr[i] + " ");
         }
 
         // // Print the array after swapping
