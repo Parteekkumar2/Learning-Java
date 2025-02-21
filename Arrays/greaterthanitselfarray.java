@@ -18,12 +18,6 @@ public class greaterthanitselfarray {
         int ans=countgreater(arr);
         System.out.println(ans);
 
-        
-        for(int i=0;i<=n-1;i++){
-            System.out.println(arr[i]);
-          }
-        
-
         scn.close();
     }
 
