@@ -21,7 +21,8 @@ public class printcolwise {
         }
         
         printArrayColumnWise(array);
-        
+        scanner.close();
+
     }
     
     // Function to print the array column-wise
