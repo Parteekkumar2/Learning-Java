@@ -1,4 +1,4 @@
-package BITS;
+package binary;
 import java.util.*;
 public class bitseven {
     public static void main(String[] args){
